@@ -1,0 +1,97 @@
+/* CSS for Desktop Version */
+body {
+    background-color: #000;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("galaxy.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .social-box {
+    background-color: #25274D;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 55px;
+    text-align: center;
+  }
+
+  .social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 15px;
+  }
+
+  .social-links a {
+    text-decoration: none;
+    color: #63DE93;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transition: transform 0.2s;
+  }
+
+  .email {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .email i {
+    margin-right: 10px;
+  }
+
+  .email p {
+    letter-spacing: 2px;
+  }
+
+  .social-links a:hover {
+    transform: scale(1.2);
+  }
+
+  /* CSS for Mobile Version */
+  @media (max-width: 600px) {
+    .profile img {
+      width: 100px;
+      height: 100px;
+    }
+
+    h1 {
+      font-size: 20px;
+      margin-bottom: 40px;
+    }
+
+    .social-links a {
+      width: 40px;
+      height: 40px;
+    }
+  }
