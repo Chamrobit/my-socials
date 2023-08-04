@@ -18,4 +18,4 @@ This is a simple webpage that showcases my social media profiles and contact inf
 
 To view the webpage, visit the link below:
 
-[https://your-username.github.io/your-repository/](https://your-username.github.io/your-repository/)
+(chamrobit.github.io/my-socials)[https://chamrobit.github.io/my-socials/]
