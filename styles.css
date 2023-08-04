@@ -25,6 +25,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 30px;
 }
 
 .profile img {
@@ -44,38 +45,54 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  margin-top: 15px;
+  margin-top: 5px;
+  margin-bottom: 25px;
 }
 
 .social-links a {
   text-decoration: none;
-  color: #63DE93;
+  color: #32d16f;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 50px;
   height: 50px;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 50%;
+  background-color: rgba(76, 99, 154, 0.2);
+  border-radius: 45%;
   transition: transform 0.2s;
+}
+
+.emails-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* Adjust the gap between emails */
+  margin-top: 15px;
 }
 
 .email {
   display: flex;
   align-items: center;
-  margin-top: 15px;
 }
 
 .email i {
-  margin-right: 10px;
+  margin-right: 6px;
 }
 
 .email p {
+  margin: 0;
+}
+
+.email:nth-child(1) p {
+  letter-spacing: 3px;
+}
+
+.email:nth-child(2) p {
   letter-spacing: 2px;
 }
 
 .social-links a:hover {
-  transform: scale(1.2);
+  transform: scale(1.5);
 }
 
 /* CSS for Mobile Version */
