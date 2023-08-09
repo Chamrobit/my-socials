@@ -66,7 +66,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px; /* Adjust the gap between emails */
+  gap: 15px;
   margin-top: 15px;
 }
 
@@ -76,7 +76,7 @@ h1 {
 }
 
 .email i {
-  margin-right: 6px;
+  margin-right: 5px;
 }
 
 .email p {
@@ -84,15 +84,15 @@ h1 {
 }
 
 .email:nth-child(1) p {
-  letter-spacing: 3px;
-}
-
-.email:nth-child(2) p {
   letter-spacing: 2px;
 }
 
+.email:nth-child(2) p {
+  letter-spacing: 2.9px;
+}
+
 .social-links a:hover {
-  transform: scale(1.5);
+  transform: scale(1.4);
 }
 
 /* CSS for Mobile Version */
